@@ -1,0 +1,75 @@
+/*fontes*/
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital@1&display=swap');
+
+body {
+    background-color: royalblue;
+}
+
+.container {
+    background-color: white;
+    width: 500px;
+    height: 550px;
+    margin-left: 375px;
+    border-radius: 25px;
+    box-shadow: 2px 7px 20px rgba(0, 0, 0, 0.582);
+}
+
+
+p.idade {
+    color: black;
+    font-size: 1.6em;
+    padding-top: 25px;
+    text-align: center;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+input.botao {
+    width: 100px;
+    height: 30px;
+    border-radius: 8px;
+    font-size: 1em;
+    background: rgba(65, 105, 225, 0.308);
+    border-color: rgba(88, 88, 88, 0.425);
+    margin-left: 195px;
+    margin-top: 15px;
+}
+
+input.botao:hover {
+    background: royalblue;
+    color: rgb(226, 226, 226);
+    transition: .2s;
+    box-shadow: 2px 2px 20px rgba(0, 0, 0, 0.582);
+
+}
+
+input.formulario {
+    margin-left: 155px;
+    border-radius: 12px 0PX;
+    height: 25px;
+}
+
+.formSexo {
+    margin-top: 30px;
+    margin-left: 155px;
+}
+
+img {
+    height: 280px;
+    width: 280px;
+    border-radius: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+label {
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.idade {
+    font-family: 'Roboto Condensed', sans-serif;
+    text-align: center;
+    margin-top: 25px;
+    font-size: 1.1em;
+
+}

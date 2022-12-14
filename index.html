@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-Br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Idade e sexo</title>
+    <link rel="stylesheet" href="idade_sexo.css">
+</head>
+
+<body>
+
+    <div class="container">
+        <div>
+            <p class="idade">Em que ano você nasceu?</p>
+            <input type="text" name="txtAnoNasci" id="txtAnoNasci" class="formulario">
+            <div class="formSexo">
+                <input type="radio" name="sexo" id="Fsexo" class="txtInput">
+                <label for="masculino">Masculino</label>
+                <input type="radio" name="sexo" id="Fsexo" class="txtInput">
+                <label for="feminino">Feminino</label>
+            </div>      
+            <input type="button" value="Verificar" onclick="verificar()" class="botao">
+            <div id="idadeArea" class="idade"></div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
